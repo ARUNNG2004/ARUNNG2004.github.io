@@ -15,12 +15,15 @@
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/reume.css">
+    <link rel="stylesheet" href="css/profiles.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="icon" href="images/a.png" type="image/icon type">
 
-    <!-- script
-    ================================================== -->
-    <script defer src="js/vendor/fontawesome/all.min.js"></script>
 
 
 
@@ -36,12 +39,13 @@
         <div class="row s-header__nav-wrap">
             <nav class="s-header__nav">
                 <ul>
-                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li class="current">
+                    <li><a class="smoothscroll" href="#hero">Home</a></li>
                     <li><a class="smoothscroll" href="#about">About</a></li>
                     <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Profiles</a></li>
+                    <li><a class="smoothscroll" href="#profiles">Profiles</a></li>
                     <li><a class="smoothscroll" href="#projects">Projects</a></li>
-                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                </li>
                 </ul>
             </nav>
         </div>
@@ -84,79 +88,83 @@
             </div>
         </div>
 
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                <span class="scroll-arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
-                </span>
-                <span class="scroll-text">Scroll Down</span>
-            </a>
-        </div>
-
 
     </section>
 
-    <section id="about" class="s-about target-section">
-
-        <div class="row">
-            <div class="column large-3 tab-12">
-                <img class="s-about__pic" src="images/profile.png" alt="">
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="pic-div">
+                <img class="profile-pic" src="images/profile.png" alt="Profile Picture">
             </div>
-            <div class="column large-9 tab-12 s-about__content">
+            <div class="about-content">
                 <h3>About Me</h3>
                 <p>
-                    I started learning programming language since 2020. Still now i've learning it.
-                    I do programming with Python🐍,and a bit good in <u>html and css.</u></p>
-                    <p>Inspired by <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" target="_blank"> <u>Sundar Pichai</u></a>  I started learning programming with the help of my friend <a href="https://github.com/agilarasu">@agilarasu</a> ,@Sriranganathan w3schools ,geeksforgeeks ,sololearn.
+                    I've been delving into programming since 2020 and continue to learn and grow in this field.
+                    My primary programming language is Python🐍, and I also have some proficiency in <u>HTML and CSS.</u>
+                </p>
+                <p>
+                    Inspired by <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" target="_blank">Sundar Pichai
+                    </a>, I embarked on my programming journey with the guidance of my friend <a href="https://github.com/agilarasu">@agilarasu</a>,
+                     @Sriranganathan,<a href="http://https://www.w3schools.com/"> W3schools,</a> <a href="https://www.geeksforgeeks.org/">Geeksforgeeks</a>.
                 </p>
                 <figure class="pull-quote">
                     <blockquote>
                         <p>
-                          success is not a destination, <br> success is a journey.
+                            "Success is not a destination, <br> success is a journey."
+                        </p>
                         <footer>
                             <cite>Zig Ziglar</cite>
                         </footer>
                     </blockquote>
                 </figure>
-
             </div>
         </div>
-
     </section>
 
 
+<!-- resume -->
 
-    <section id="resume" class="s-resume target-section">
+    <section class="resume" id="resume">
 
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Skills</h3>
+        <div class="resume-container">
+            <div class="section-header-allcaps">
+                <h3 >Skills</h3>
             </div>
-            <div class="column large-9 tab-12">
+            <div class="content">
                 <div class="resume-block">
 
                     <p>
-                        I know some of the programming languages and basics of some editing softwares.
-                        i'wanna to be a program developer.
-                        still trying and working to make my list bigger and better than before.
+                        I possess extensive skills in programming and software development, acquired through five years of professional experience. My expertise spans multiple programming languages and software tools, enabling me to tackle diverse challenges efficiently and effectively.
                     </p>
 
-                    <ul class="skill-bars-fat">
+                    <ul>
                         <li>
-                            <div class="progress percent60"></div>
                             <strong>C and C++</strong>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%;"></div>
+                            </div>
+
                         </li>
                         <li>
-                            <div class="progress percent90"></div>
                             <strong>Python🐍</strong>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+
                         </li>
                         <li>
-                            <div class="progress percent55"></div>
                             <strong>React js</strong>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 55%;"></div>
+                            </div>
+
                         </li>
                         <li>
-                            <div class="progress percent40"></div>
                             <strong>JAVA</strong>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 40%;"></div>
+                            </div>
+
                         </li>
 
                     </ul>
@@ -168,22 +176,24 @@
 
     </section>
 
+    <hr>
 
-    <!-- portfolio
+
+    <!-- profiles
     ================================================== -->
-    <section id="portfolio" class="s-resume target-section" >
+    <section id="profiles" class="profiles" >
         <div class="contact-container">
             <div class="contact-content">
                 <h1>Profiles🅿️</h1>
                 <p>Feel free to reach out to me through any of the following channels:</p>
                 <div class="contact-links">
-                    
+
                     <a href="tel:+916382719678"><i class="fas fa-phone"></i> Phone</a>
 
                     <a href="https://www.linkedin.com/in/aruncse2004/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                   
+
                     <a href="https://github.com/ARUNNG2004" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    
+
                 </div>
             </div>
         </div>
@@ -191,74 +201,55 @@
 
     </section>
 <!--  project section-->
-<section id="projects" class="s-about target-section">
-<div class="row s-Projects__header">
-            <div class="column large-12">
-                <h3>Projects</h3>
-            </div>
-        <div class="projectlink">
-         <h1>On the way... techi😉
-        </div></td></p>
+
+
+<section class="projects" id="projects">
+  <div class="project-container">
+    <div class="header">
+      <h2 class="title">My Projects</h2>
+    </div>
+
+    <div class="project-container">
+      <div class="project">
+        <h3 class="project-title">Project 1</h3>
+        <p class="project-description">Description of Project 1.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project">
+        <h3 class="project-title">Project 2</h3>
+        <p class="project-description">Description of Project 2.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project">
+        <h3 class="project-title">Project 3</h3>
+        <p class="project-description">Description of Project 3.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </div>
 </section>
-    <section id="contact" class="s-contact target-section">
 
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">Say Hello</h3>
-            </div>
-        </div>
-
-        <div class="row s-contact__content">
-
-            <div class="column large-7 medium-12">
-
-                <h4 class="huge-text">
-                   Have a new project in mind? Let's collaborate and build something awesome. Let's turn that idea to an even greater product :)
-                </h4>
-
-            </div>
-
-            <div class="column large-4 medium-12">
-
-                <div class="row contact-infos">
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Email
-                            </h5>
-                            <p class="contact-block__content">
-                                <a class="mailtoui" href="mailto:arun1990govind@gmail.com">arun1990govind@gmail.com</a>
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="column large-12">
-                        <a href="mailto:arun1990govind@gmail.com" class="mailtoui btn btn--primary h-full-width">Can we talk business  ?</a>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-    </section>
+</body>
+</html>
 
 
 
 
-    <footer class="s-footer">
+
+
+
+<footer class="s-footer">
         <div class="row">
-            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+            <div class=" ">
                 <ul class="s-footer__social">
                     <li><a href="https://github.com/ARUNNG2004"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-
                     <li><a href="https://instagram.com/cse_student_life_arun"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                     <li><a href="https://t.me/ARUNCSE"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
 
-            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+            <div class="ss-copyright">
                 <span><a>© Copyright ARUN 2024</a></span>
                 <span><a>Design by ARUN  N G</a></span>
             </div>
@@ -279,6 +270,6 @@
     <script src="js/main.js"></script>
 
 
-                    </body>
+</body>
 
 </html>

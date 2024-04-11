@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
+
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 800px;
+    justify-content: start;
+    padding: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    padding: 8px;
+    margin: 0;
+}
+
+.about-container a {
+    color: aqua;
+}
+
+.about-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-container figure {
+    margin-top: 30px;
+    width: auto;
+}
+
+.about {
+    background-color: #1e1e1e;
+    padding: 30px;
+    width: auto;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 1.2rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.pic-div {
+    margin-bottom: 20px;
+    justify-items: start;
+    justify-content: start;
+}
+
+.about-content {
+width: 600px;
+padding-left: 300px;
+
+}
+
+.about-content p {
+    margin-top: 8px;
+}
+
+.pull-quote {
+
+    text-align: center;
+    background-color: #999999;
+    width: auto;
+
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.pull-quote blockquote p {
+    font-weight: 400;
+    color: #333;
+    padding-top: auto;
+}
+
+.pull-quote blockquote:before {
+    content: "";
+    display: block;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background: center center;
+    background-size: contain;
+    background-image: url(../images/icons/icon-quote.svg);
+    transform: translateX(-50%);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        min-height:700px ;height: auto;
+        width: auto;
+        padding: 0%;
+    }
+
+    .about-content {
+        font-size: 10px;
+        padding: 0;
+        width: auto;
+        text-align: left;
+    }
+
+    .pic-div {
+        display:none;
+        }
+}
