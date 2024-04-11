@@ -64,9 +64,9 @@ padding-left: 300px;
 .pull-quote {
 
     text-align: center;
-    background-color: #999999;
+    background-color: #ffffff;
     width: auto;
-
+    text-transform: uppercase;
     margin: 20px auto;
     padding: 20px;
 }

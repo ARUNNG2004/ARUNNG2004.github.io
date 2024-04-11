@@ -3,6 +3,7 @@
 .resume {
     background-color: #ffffff;
     color: black;
+    padding: 100px;
 }
 
 .resume-container {
@@ -33,13 +34,14 @@ body, h1, h2, h3, p, ul {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    text-decoration: solid 4px rgb(204, 37, 37) underline;
+    text-decoration: solid 4px rgb(236, 31, 31) underline;
 }
 
 .resume-block {
     background-color: #ffffff;
     padding: 20px;
-    margin-left: 360px;
+    margin-top: 10px;
+    margin-left: 325px;
     width: calc(50% - 40px);
     padding-bottom: 30px;
     border-radius: 10px;

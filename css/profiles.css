@@ -5,15 +5,20 @@ body {
 
   background-color: #ffffff;
 }
-
-.contact-container {
-  padding: 100px; /* Adjust padding for mobile */
-  margin: 50px auto; /* Center the container horizontally */
-  max-width: 800px; /* Limit container width */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.profiles{
+  padding: 100px;
 }
+.contact-content {
+  width: 600px;
+  padding: 30px;
+  height: auto;
+  min-height: 300px;
+  background-color: #e7c6c6;
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 .contact-content {
   width: 600px;
@@ -21,7 +26,8 @@ body {
   height: auto; /* Remove fixed height */
   min-height: 300px; /* Minimum height */
   background-color: #e7c6c6;
-  padding-bottom: 50px;
+
+  margin-top: 80px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
