@@ -107,3 +107,22 @@ strong {
         width: 375px;
     }
 }
+@media screen and (max-width: 480px) {
+    .resume {
+        padding: 0%;
+        margin: 0%;
+    }
+    .section-header-allcaps {
+        padding-left: 100px; /* Adjusted for smaller screens */
+    }
+    .resume-container {
+        justify-content: left;
+        width: 200px; /* Adjusted width for better mobile layout */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .resume-block {
+        margin-left: 0;
+        width: 300px; /* Adjusted width for better mobile layout */
+    }
+}
