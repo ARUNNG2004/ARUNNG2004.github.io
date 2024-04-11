@@ -67,14 +67,18 @@ body {
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 767px) {
   .contact-container {
+    justify-content: center;
+    display: flex;
     padding: 30px;
     margin: 30px auto;
   }
 
   .contact-content {
+    display: flex;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 40px;
-    width: auto;
+    width: 150px;
   }
 
   .contact-content h1 {
@@ -88,7 +92,7 @@ body {
   }
 
   .contact-links a {
-    margin: 0 5px;
-    padding: 8px 15px;
+    margin: 0 2px;
+    padding:2px;
   }
 }

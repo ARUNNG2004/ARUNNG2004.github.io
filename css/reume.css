@@ -34,7 +34,7 @@ body, h1, h2, h3, p, ul {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    text-decoration: solid 4px rgb(236, 31, 31) underline;
+    text-decoration: solid 4px rgb(255, 0, 0) underline;
 }
 
 .resume-block {
