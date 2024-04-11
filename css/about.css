@@ -97,8 +97,9 @@ padding-left: 300px;
     .about-container {
         display: flex;
         flex-direction: column;
-        min-height:700px ;height: auto;
-        width: auto;
+        min-height:700px ;
+        height: auto;
+        width: 500px;
         padding: 0%;
     }
 

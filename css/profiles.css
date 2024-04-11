@@ -26,7 +26,7 @@ body {
   height: auto; /* Remove fixed height */
   min-height: 300px; /* Minimum height */
   background-color: #e7c6c6;
-
+  
   margin-top: 80px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
