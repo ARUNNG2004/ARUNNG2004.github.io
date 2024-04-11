@@ -26,7 +26,7 @@ body {
   height: auto; /* Remove fixed height */
   min-height: 300px; /* Minimum height */
   background-color: #e7c6c6;
-  
+
   margin-top: 80px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,36 +63,69 @@ body {
   background-color: #333;
   color: #fff;
 }
-
-/* Media Query for Mobile Devices */
 @media screen and (max-width: 767px) {
   .contact-container {
     justify-content: center;
     display: flex;
-    padding: 30px;
-    margin: 30px auto;
+    padding: 20px; /* Adjusted padding for larger mobile screens */
+    margin: 20px auto; /* Adjusted margin for larger mobile screens */
   }
 
   .contact-content {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    width: 150px;
+    padding-top: 30px; /* Adjusted padding for larger mobile screens */
+    padding-bottom: 50px; /* Adjusted padding for larger mobile screens */
+    width: 300px; /* Adjusted width for bigger mobile layout */
   }
 
   .contact-content h1 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 22px; /* Adjusted font-size for larger mobile screens */
+    margin-bottom: 20px; /* Adjusted margin for larger mobile screens */
   }
 
   .contact-content p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 16px; /* Adjusted font-size for larger mobile screens */
+    margin-bottom: 30px; /* Adjusted margin for larger mobile screens */
+  }
+
+  .contact-links a {
+    margin: 0 5px; /* Adjusted margin for larger mobile screens */
+    padding: 8px 15px; /* Adjusted padding for larger mobile screens */
+    font-size: 16px; /* Adjusted font-size for larger mobile screens */
+  }
+}
+/* Media Query for Extra Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .contact-container {
+    justify-content: center;
+    display: flex;
+    padding: 10px; /* Adjusted padding for smaller screens */
+    margin: 10px auto; /* Adjusted margin for smaller screens */
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px; /* Adjusted padding for smaller screens */
+    padding-bottom: 20px; /* Adjusted padding for smaller screens */
+    width: 250px; /* Adjusted width for better mobile layout */
+  }
+
+  .contact-content h1 {
+    font-size: 18px; /* Adjusted font-size for smaller screens */
+    margin-bottom: 10px; /* Adjusted margin for smaller screens */
+  }
+
+  .contact-content p {
+    font-size: 12px; /* Adjusted font-size for smaller screens */
+    margin-bottom: 15px; /* Adjusted margin for smaller screens */
   }
 
   .contact-links a {
     margin: 0 2px;
-    padding:2px;
+    padding: 5px 10px; /* Adjusted padding for smaller screens */
+    font-size: 12px; /* Adjusted font-size for smaller screens */
   }
 }
+
