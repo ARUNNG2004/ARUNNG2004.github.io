@@ -88,8 +88,15 @@ strong {
 }
 
 @media screen and (max-width: 768px) {
-    .resume-block {
-        width: calc(100% - 40px);
-        margin: 10px;
+    .resume{
+        padding: 0%;
+        margin: 0%;
+    }
+    .resume-container {
+        width: auto; /* Adjusted width for better mobile layout */
+    }
+    .resume-block{
+        margin-left: 0;
+        width: 375px;
     }
 }
