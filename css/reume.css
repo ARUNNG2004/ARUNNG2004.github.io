@@ -97,6 +97,7 @@ strong {
       padding-left: 150px;
     }
     .resume-container {
+        padding-left: 20px;
         justify-content:left;
         width: 250px;
         display: flex;
@@ -117,7 +118,8 @@ strong {
     }
     .resume-container {
         justify-content: left;
-        width: 200px; /* Adjusted width for better mobile layout */
+        width: 200px;
+        padding-left: 50px; /* Adjusted width for better mobile layout */
         display: flex;
         flex-wrap: wrap;
     }
