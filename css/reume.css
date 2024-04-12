@@ -118,13 +118,19 @@ strong {
     }
     .resume-container {
         justify-content: left;
-        width: 200px;
-        padding-left: 50px; /* Adjusted width for better mobile layout */
+        width:300px;
+        /* Adjusted width for better mobile layout */
         display: flex;
         flex-wrap: wrap;
     }
     .resume-block {
-        margin-left: 30px;
-        width: 250px; /* Adjusted width for better mobile layout */
+        margin-left: 20px;
+        width: 300px;}
+    .resume-block p{
+        padding: 5px;
+    }
+    .content{
+        width: 200px;
+
     }
 }
