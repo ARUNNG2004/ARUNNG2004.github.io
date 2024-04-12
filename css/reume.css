@@ -124,7 +124,7 @@ strong {
         flex-wrap: wrap;
     }
     .resume-block {
-        margin-left: 0;
-        width: 300px; /* Adjusted width for better mobile layout */
+        margin-left: 30px;
+        width: 250px; /* Adjusted width for better mobile layout */
     }
 }
