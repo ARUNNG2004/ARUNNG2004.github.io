@@ -97,7 +97,7 @@ strong {
       padding-left: 150px;
     }
     .resume-container {
-        padding-left: 20px;
+
         justify-content:left;
         width: 200px;
         display: flex;
@@ -134,5 +134,11 @@ strong {
         width: 200px;
         padding: 0%;
 
+    }
+    .contact-container p {
+        padding: 8px;
+    }
+    .contact-container ,p,.contact-links{
+        padding: 30px;
     }
 }
