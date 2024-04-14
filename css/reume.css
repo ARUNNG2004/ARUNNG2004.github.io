@@ -99,7 +99,7 @@ strong {
     .resume-container {
         padding-left: 20px;
         justify-content:left;
-        width: 250px;
+        width: 200px;
         display: flex;
         flex-wrap: wrap; /* Adjusted width for better mobile layout */
     }
@@ -124,13 +124,15 @@ strong {
         flex-wrap: wrap;
     }
     .resume-block {
-        margin-left: 20px;
+
         width: 300px;}
     .resume-block p{
         padding: 5px;
+        font-size: 12px;
     }
     .content{
         width: 200px;
+        padding: 0%;
 
     }
 }
