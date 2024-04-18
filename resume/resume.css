@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
+
+
+.download-button {
+    margin-top: 50px;
+    padding-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 3px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+@media screen and (max-width: 480px) {
+
+.download-button {
+    font-size: 12px;
+}
+.download-button img{
+    width: 20px;
+    height: 15px;
+}
+}
+.download-button:hover {
+    background-color: #fc9701;
+
+}
+
+
+#downloadMessage{
+    margin-top: 30px;
+    color: aliceblue;
+}
