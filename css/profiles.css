@@ -1,134 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 
-body {
+.body {
+  font-family: Arial, sans-serif;
   margin: 0;
 
-  background-color: #ffffff;
-}
-.profiles{
-  padding: 100px;
-}
-.contact-content {
-  width: 600px;
-  padding: 30px;
-  height: auto;
-  min-height: 300px;
-  background-color: #e7c6c6;
-  margin: 0 auto; /* Center the content horizontally */
-  text-align: center;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
 }
 
-
-.contact-content {
-  width: 600px;
-  padding: 30px;
-  height: auto; /* Remove fixed height */
-  min-height: 300px; /* Minimum height */
-  background-color: #e7c6c6;
-
-  margin-top: 80px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.contact-content h1 {
-  font-size: 24px; /* Adjust font-size for mobile */
-  margin-bottom: 20px;
-}
-
-.contact-content p {
-  font-size: 16px; /* Adjust font-size for mobile */
-  margin-bottom: 30px;
-}
-
-.contact-links {
+h2 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.contact-links a {
-  display: inline-block;
+.profiles {
+  padding: 80px;
+  box-shadow: 4px 3px #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.body {
+
+  min-width: 100%;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body h2{
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.profile {
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
   text-decoration: none;
-  color: #333;
-  margin: 0 10px;
-  padding: 10px 20px;
-  border: 1px solid #333;
-  border-radius: 5px;
-  transition: all 0.3s ease;
 }
 
-.contact-links a:hover {
-  background-color: #333;
-  color: #fff;
+.profile p {
+  color: #777;
 }
-@media screen and (max-width: 767px) {
-  .contact-container {
-    justify-content: center;
-    display: flex;
-    padding: 20px; /* Adjusted padding for larger mobile screens */
-    margin: 20px auto; /* Adjusted margin for larger mobile screens */
-  }
-
-  .contact-content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px; /* Adjusted padding for larger mobile screens */
-    padding-bottom: 50px; /* Adjusted padding for larger mobile screens */
-    width: 300px; /* Adjusted width for bigger mobile layout */
-  }
-
-  .contact-content h1 {
-    font-size: 22px; /* Adjusted font-size for larger mobile screens */
-    margin-bottom: 20px; /* Adjusted margin for larger mobile screens */
-  }
-
-  .contact-content p {
-    font-size: 16px; /* Adjusted font-size for larger mobile screens */
-    margin-bottom: 30px; /* Adjusted margin for larger mobile screens */
-  }
-
-  .contact-links a {
-    margin: 0 5px; /* Adjusted margin for larger mobile screens */
-    padding: 8px 15px; /* Adjusted padding for larger mobile screens */
-    font-size: 16px; /* Adjusted font-size for larger mobile screens */
-  }
-}
-/* Media Query for Extra Small Mobile Devices */
-@media screen and (max-width: 480px) {
-  .profiles{padding: 0%;}
-  .contact-container {
-    justify-content: center;
-    
-    display: flex;
-    padding: 0px 10px ; /* Adjusted padding for smaller screens */
-    margin: 10px auto; /* Adjusted margin for smaller screens */
-  }
-
-  .contact-content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px; /* Adjusted padding for smaller screens */
-    padding-bottom: 20px;
-    padding: 0%; /* Adjusted padding for smaller screens */
-    width: 250px; /* Adjusted width for better mobile layout */
-  }
-
-  .contact-content h1 {
-    font-size: 18px; /* Adjusted font-size for smaller screens */
-    margin-bottom: 10px; /* Adjusted margin for smaller screens */
-  }
-
-  .contact-content p {
-    font-size: 12px; /* Adjusted font-size for smaller screens */
-    margin-bottom: 15px; /* Adjusted margin for smaller screens */
-  }
-
-  .contact-links a {
-    margin: 0 2px;
-    padding: 5px 10px; /* Adjusted padding for smaller screens */
-    font-size: 12px; /* Adjusted font-size for smaller screens */
-  }
-}
-
