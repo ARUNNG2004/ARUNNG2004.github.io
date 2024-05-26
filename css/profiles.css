@@ -72,6 +72,7 @@ h2 {
   color: #777;
 }
 @media (max-width: 768px) {
+  *{font-size: 12px;}
   .profiles {
     padding: 20px;
     box-shadow: none;
@@ -87,5 +88,39 @@ h2 {
   }
   .body h2 {
     font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+
+  .profiles {
+    padding: 10px;
+  }
+
+  .profile {
+    width: 50%;
+    padding: 20px;
+    margin: 5px 0;
+  }
+
+  body h2 {
+    font-size: 25px;
+  }
+
+  .container {
+    margin-left: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile h2 {
+    font-size: 1.2em;
+  }
+
+  .profile p {
+    font-size: 0.9em;
   }
 }
