@@ -39,7 +39,6 @@ h2 {
 .body h2{
   font-size: 40px;
   font-weight: bolder;
-
 }
 
 .container {
@@ -47,7 +46,7 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  padding: 30px;
+
   margin-left: 30px;
 }
 
@@ -71,4 +70,22 @@ h2 {
 
 .profile p {
   color: #777;
+}
+@media (max-width: 768px) {
+  .profiles {
+    padding: 20px;
+    box-shadow: none;
+  }
+  .container {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .profile {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  .body h2 {
+    font-size: 30px;
+  }
 }
