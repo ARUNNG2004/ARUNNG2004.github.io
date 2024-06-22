@@ -15,17 +15,18 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="resume/resume.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/reume.css">
+
     <link rel="stylesheet" href="css/profiles.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="stylesheet" href="css/reume.css">
+    <link rel="stylesheet" href="css/loding.css">
     <link rel="icon" href="images/a.png" type="image/icon type">
 
 
@@ -33,11 +34,7 @@
 
 </head>
 
-<body id="top" class="ss-preload">
-
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
+<body id="content" >
 
     <header class="s-header">
         <div class="row s-header__nav-wrap">
@@ -60,7 +57,10 @@
     </header>
 
 
-    <section id="hero" class="s-hero target-section">
+    <section data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0" id="hero" class="s-hero target-section">
 
         <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
 
@@ -101,8 +101,8 @@
 
     </section>
 
-    <section id="about" class="about">
-        <div class="about-container">
+    <section  data-aos="zoom-in" data-aos-duration="2500" id="about"  class="about">
+        <div  class="about-container">
             <div class="pic-div">
                 <img class="profile-pic" src="images/profile.png" alt="Profile Picture">
             </div>
@@ -117,7 +117,9 @@
                     </a>, I embarked on my programming journey with the guidance of my friend <a href="https://github.com/agilarasu">@agilarasu</a>,
                      @Sriranganathan,<a href="http://https://www.w3schools.com/"> W3schools,</a> <a href="https://www.geeksforgeeks.org/">Geeksforgeeks</a>.
                 </p>
-                <figure class="pull-quote">
+                <figure class="pull-quote"data-aos="flip-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="4000">
                     <blockquote>
                         <p>
                             "Success is not a destination, <br> success is a journey."
@@ -137,39 +139,39 @@
     <section class="resume" id="resume">
 
         <div class="resume-container">
-            <div class="section-header-allcaps">
+            <div class="section-header-allcaps" data-aos="fade-right" data-aos-duration="1500">
                 <h3 >Skills</h3>
             </div>
-            <div class="content">
-                <div class="resume-block">
+            <div class="content" data-aos="fade-up-left" data-aos-duration="6500">
+                <div class="resume-block" >
 
                     <p>
                         I possess extensive skills in programming and software development, acquired through five years of professional experience. My expertise spans multiple programming languages and software tools, enabling me to tackle diverse challenges efficiently and effectively.
                     </p>
 
                     <ul>
-                        <li>
+                        <li data-aos="fade-up-right">
                             <strong>C and C++</strong>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 60%;"></div>
                             </div>
 
                         </li>
-                        <li>
+                        <li data-aos="fade-up-right">
                             <strong>Python🐍</strong>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 90%;"></div>
                             </div>
 
                         </li>
-                        <li>
+                        <li data-aos="fade-up-right">
                             <strong>React js</strong>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 55%;"></div>
                             </div>
 
                         </li>
-                        <li>
+                        <li data-aos="fade-up-right">
                             <strong>JAVA</strong>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 40%;"></div>
@@ -192,24 +194,31 @@
     <!-- profiles
     ================================================== -->
     <section id="profiles" class="profiles">
-        <div class="body">
+        <div  data-aos="zoom-in" class="body">
             <h2>Profiles</h2>
             <div class="container">
-                <div class="profile">
+                <div class="profile"
+                 data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <a href="https://github.com/ARUNNG2004" target="_blank">
                         <i class="fab fa-github" aria-hidden="true" style="font-size: 100px;"></i>
                         <h2>ARUNNG2004</h2>
 
                     </a>
                 </div>
-                <div class="profile">
+                <div class="profile" data-aos="fade-up"
+                data-aos="center-center"
+                 data-aos-duration="700" `>
                     <a href="https://www.linkedin.com/in/aruncse2004/" target="_blank">
                         <i class="fab fa-linkedin" aria-hidden="true" style="font-size: 100px;"></i>
                         <h2>ARUNCSE2004</h2>
 
                     </a>
                 </div>
-                <div class="profile">
+                <div class="profile"data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <a href="tel:+916382719678">
                         <i class="fas fa-phone" aria-hidden="true" style="font-size: 100px;"></i>
                         <h2>ARUNNG</h2>
@@ -276,6 +285,10 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="resume/resumedownload.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
