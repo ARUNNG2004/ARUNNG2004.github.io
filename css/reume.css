@@ -91,11 +91,17 @@ strong {
         justify-content: center;
 
     }
+    .section-header-allcaps{
+        justify-content: center;
+
+    }
     .resume-container {
         padding: 0% 0%;
         justify-content:center;
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -114,8 +120,13 @@ strong {
     .section-header-allcaps {
         height: auto;
         margin-left: 160px;
+        height: auto;
+        margin-left: 160px;
     }
     .resume-container {
+        width: auto;
+        margin: 0px;
+
         width: auto;
         margin: 0px;
 
@@ -123,7 +134,11 @@ strong {
         flex-direction: column;
         justify-content: center;
         align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
         flex-wrap: wrap;
+
 
     }
     .resume-block {
