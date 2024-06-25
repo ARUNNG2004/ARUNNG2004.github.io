@@ -2,7 +2,7 @@ My Portfolio
 Welcome to my portfolio! This is a showcase of my projects, skills, and experience in web development and backend development. Feel free to explore and connect with me.
 
 🌐 Live Demo
-You can view the live demo of my portfolio here.
+You can view the live demo of my portfolio here. https://arunng2004.github.io/
 <br>
 🛠 Technologies Used
 HTML
