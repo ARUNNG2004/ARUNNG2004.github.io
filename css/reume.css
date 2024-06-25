@@ -90,21 +90,23 @@ strong {
     .resume{
         padding: 0%;
         margin: 0%;
-    }.section-header-allcaps{
-      justify-content: center;
+    }
+    .section-header-allcaps{
+        justify-content: center;
 
     }
     .resume-container {
-
-        justify-content:space-around;
+        padding: 0%;
+        justify-content:center;
         width: 100%;
         display: flex;
-        flex-wrap: wrap; /* Adjusted width for better mobile layout */
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .resume-block{
         margin-left: 0;
-
-        width: 375px;
+        width: 80%;
+        margin-left: 50px;
     }
 }
 @media screen and (max-width: 480px) {
