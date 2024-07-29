@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://arunng2004.github.io//</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Hero Section -->
+    <url>
+        <loc>https://arunng2004.github.io//#hero</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://arunng2004.github.io//#about</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Profiles Section -->
+    <url>
+        <loc>https://arunng2004.github.io//#profiles</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Projects Section -->
+    <url>
+        <loc>https://arunng2004.github.io//#projects</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Resume -->
+    <url>
+        <loc>https://arunng2004.github.io//resume/resume.pdf</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- GitHub Profile -->
+    <url>
+        <loc>https://github.com/ARUNNG2004</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Instagram Profile -->
+    <url>
+        <loc>https://instagram.com/cse_student_life_arun</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Telegram Profile -->
+    <url>
+        <loc>https://t.me/ARUNCSE</loc>
+        <lastmod>2024-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
