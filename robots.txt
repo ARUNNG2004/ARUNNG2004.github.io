@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Allow all static assets (SEO rendering)
+Allow: /static/
+Allow: /*.css$
+Allow: /*.js$
+
+# AI bots (optional, but modern)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Anthropic-AI
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
