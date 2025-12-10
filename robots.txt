@@ -1,12 +1,9 @@
 User-agent: *
 Allow: /
-
-# Allow all static assets (SEO rendering)
 Allow: /static/
 Allow: /*.css$
 Allow: /*.js$
 
-# AI bots (optional, but modern)
 User-agent: GPTBot
 Disallow: /
 
@@ -15,3 +12,5 @@ Disallow: /
 
 User-agent: CCBot
 Disallow: /
+
+Sitemap: https://arunng2004.github.io/sitemap.xml
